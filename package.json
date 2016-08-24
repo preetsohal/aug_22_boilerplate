@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "test": "karama start"
+    "test": "karama start",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "",
